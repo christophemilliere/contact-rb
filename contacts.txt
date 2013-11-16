@@ -1,0 +1,2 @@
+1, Milliere ,2, Christophe ,3, 15 av charles de gaulle ,4, 93150 ,5, blanc mesnil ,6, christophe@milliere.fr ,
+7, Momo ,8, David ,9, 12 rue de la pompe ,10, 75001 ,11, paris ,12, momo@momo.fr ,

@@ -1,5 +1,5 @@
 class ReadFile
-attr_accessor :file_read
+  attr_accessor :file_read
 
   def saveFile(contacts_files, nb_element)
 
@@ -7,13 +7,13 @@ attr_accessor :file_read
 
     if contacts_files
       ligne_br = 1
-      # compte combien d'élémement
+      # count elements
       count =  contacts_files.length
 
       contacts_files.each do |key, value|
         contacts_files[key].each do |t,val|
 
-        # je rajout dans le fichier
+        # Add in file
           file.write "#{val} ,"
           if ligne_br ==  nb_element
             file.write "\n"
